@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>test</title>
+        <!-- Latest compiled and minified CSS -->
+    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="index.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
+        
+    </head>
+    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+        <header>
+        
+            <nav class="navbar navbar-expand-md bg-info navbar-dark fixed-top">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#Education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Experience">Experience</a>
+                        </li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <!-- Picutres -->
+        <div id="pictures" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#pictures" data-slide-to="0" class="active">me</li>
+                <li data-target="#pictures" data-slide-to="1">you</li>
+                <li data-target="#pictures" data-slide-to="2"></li>
+            </ul>
+        
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/1.jpg" alt="rachel"  class="img-thumbnail mx-auto d-block">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/2.jpg" alt="yeji" class="img-thumbnail mx-auto d-block">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/3.jpg" alt="juwon" class="img-thumbnail mx-auto d-block">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#pictures" data-slide="prev" >
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#pictures" data-slide="next" >
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+        <!-- welcome message -->
+        <div class="jumbotron bg-success text-white text-center">
+            <div class="container ">
+                <h1>Welcome! <br> Passion makes Dream.</h1>
+                <p>"Nothing great in the world has been accomplished without passion." <br>
+                    by Georg Wilhelm</p>
+            </div>
+        </div>
+
+        <!-- About sections -->
+        <section class="container-fluid p-4" id="About">
+            <h2><u>About Me</u></h2>
+            <h5>Hi! I am Inheung Daniel Ji. I am a dreamer who full of passion. I always want to be a person who can help ...... </h5>
+        </section>
+
+        <!-- Education sections -->
+        <section class="container-fluid bg-warning p-4" id="Education">
+            <h2 class="text-white"><u>Education</u></h2>
+            <div class="card-deck">
+                <div class="card" >
+                    <img src="./img/kyunghee.png" alt="kyunghee university" style="max-width: 100%;height:50%">
+                    <div class="card-body">
+                        <h4 class="card-title text-center"><b>Kyunghee University</b></h4>
+                        <div class="card-text">
+                            <ul>
+                                <li>Major: Computer Science</li>
+                            </ul>   
+                        </div>
+                        <button type="button" class="btn btn-danger btn-block" data-toggle="collapse" data-target="#collapseOne">Details</button>
+                        <div id="collapseOne" class="collapse">
+                            dfgsdfgdfg
+                        </div>
+                    </div>
+                </div> 
+                <div class="card" >
+                    <img src="./img/Ryerson-rgb.png" alt="Ryerson university" style="max-width: 100%; height:50%">
+                    <div class="card-body">
+                        <h4 class="card-title text-center"><b>Ryerson University</b></h4>
+                        <div class="card-text">
+                            <ul>
+                                <li>Major: Computer Science</li>
+                            </ul>   
+                        </div>
+                        <button type="button" class="btn btn-danger btn-block" data-toggle="collapse" data-target="#collapseOne">Details</button>
+                        <div id="collapseOne" class="collapse">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Project section -->
+        <section class="container-fluid p-4" id="Projects">
+            <h2><u>Projects</u></h2> 
+            <div class="card-deck">
+                <div class="card" >
+                    <img src="./img/kyunghee.png" alt="kyunghee university" class="rounded-circle" style="max-width: 100%;height:60%">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><b>Web Site</b></h5>
+                        <button type="button" class="btn btn-danger btn-block" data-toggle="collapse" data-target="#webDetails">Details</button>
+                        <div class="card-text collapse" id="webDetails">
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>bootstrap</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+                <div class="card" >
+                    <img src="./img/Ryerson-rgb.png" alt="Ryerson university" class="rounded-circle" style="max-width: 100%; height:60%">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><b>To-do Scheduler</b></h5>
+                            <button type="button" class="btn btn-danger btn-block" data-toggle="collapse" data-target="#scheduler">Details</button>
+                            <div class="card-text collapse" id="scheduler">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>bootstrap</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+                <div class="card" >
+                    <img src="./img/Ryerson-rgb.png" alt="Ryerson university" class="rounded-circle" style="max-width: 100%; height:60%">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><b>LookHome</b></h5>
+                            <button type="button" class="btn btn-danger btn-block" data-toggle="collapse" data-target="#LookHome">Details</button>
+                            <div class="card-text collapse" id="LookHome">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>bootstrap</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+                <div class="card" >
+                    <img src="./img/Ryerson-rgb.png" alt="Ryerson university" class="rounded-circle" style="max-width: 100%; height:60%">
+                    <div class="card-body">
+                        <h5 class="card-title text-center"><b>Web site</b></h5>
+                            <button type="button" class="btn btn-danger btn-block" data-toggle="collapse" data-target="#webDetails">Details</button>
+                            <div class="card-text collapse" id="webDetails">
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>bootstrap</li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience section -->
+        <section class="container-fluid p-4 bg-primary" id="Experience">
+            <h2><u>Experience</u></h2>
+        </section>
+        <footer class="container-fluid p-4 bg-info">
+            <h4>Contact Me</h4>
+            <p>Have questions? Contact Me!</p>
+            <p>E-mail: fl.inheung@gmail.com</p>
+
+        </footer>
+    </body>
+</html>
