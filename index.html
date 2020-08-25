@@ -18,14 +18,14 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> 
         
     </head>
-    <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <body data-spy="scroll" data-target="#navbar-set" data-offset="150">
 
         <header class="container-fluid">
         
-            <nav class="navbar navbar-expand-md bg-info navbar-dark fixed-top">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home</a>
+            <nav id="navbar-set" class="navbar navbar-expand-lg fixed-top navbar-dark bg-info">
+                <ul class="nav nav-pills nav-fill">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#About">About</a>
@@ -41,11 +41,11 @@
                         </li>
                 </ul>
             </nav>
-
+        
         </header>
 
         <!-- Picutres -->
-        <div class="container-fluid">
+        <div class="container-fluid" >
             <div id="pictures" class="carousel slide pt-5" data-ride="carousel">
                 <ul class="carousel-indicators">
                     <li data-target="#pictures" data-slide-to="0" class="active"></li>
@@ -87,7 +87,7 @@
         <!-- About sections -->
         <section class="container-fluid p-4" id="About">
             <p class="h2"><u>About Me</u></p>
-            <h5>Hi! I am Inheung Daniel Ji. I am a paasionate lifelong learner.I regularly seek a variety of learning opportunities
+            <h5>Hi! I am Inheung Daniel Ji. I am a paasionate lifelong learner.I regularly seek a variety of learning opportunities.
                 I've tried to find opportunities to improve upon my programming skills in real life situation. </h5>
         </section>
 
@@ -183,8 +183,13 @@
                         <h5 class="card-title text-center"><b>Web Site</b></h5>
                         <button type="button" class="btn btn-danger btn-block" data-toggle="collapse" data-target="#webDetails">Details</button>
                         <div class="card-text collapse" id="webDetails">
-                            <p>-Language: HTML, CSS, Bootstrap</p>
-                            <p>I made website on myself. I explained what I learned, what I am doing and learning now, and what kind of experience I have. </p>
+                            <p>I made website on myself. I explained what I learned, what I am doing and learning now, and what kind of experience I have. 
+                                <ul>
+                                    <li>Language: HTML, CSS, Bootstrap</li>
+                                </ul>
+                            </p>
+                            
+                            
                             <a class="btn btn-primary " type="button"   href="https://github.com/InheungJi/aboutMe.git">GitHub Link</a>
                         </div>
                     </div>
@@ -224,6 +229,11 @@
                                     and by using Java for GUI. 
                                     It was group Project. My role was organizing database system and programming GUI part.
                                     Through this project, we learned procedure of building database system and how to design the system.
+                                    <ul>
+                                        <li>Language: Java</li>
+                                        <li>DB: Oracle DBMS</li>
+                                    </ul>
+                                
                                 </p>  
                                 <a class="btn btn-primary " href="https://github.com/InheungJi/CPS510_database_system.git">GitHub Link</a> 
  
@@ -239,7 +249,14 @@
                         <h5 class="card-title text-center"><b>Money Planner</b></h5>
                             <button type="button" class="btn btn-danger btn-block" data-toggle="collapse" data-target="#MoneyPlanner">Details</button>
                             <div class="card-text collapse" id="MoneyPlanner">
-                                <p>processing ...</p>
+                                <p>This is  Money Planner. 
+                                    It is still precessing. I am working on data management part. I am going to use Oracle DBMS to manage data.
+                                    <ul>
+                                    <li>Language: Java</li>
+                                    <li>DB: Oracle DBMS( It is scheduled to use soon.)</li>
+                                    </ul>
+                                </p>
+                                <a class="btn btn-primary" href="https://github.com/InheungJi/MoneyPlanner.git">GitHub Link</a>
                             </div>
                     </div>
                 </div>

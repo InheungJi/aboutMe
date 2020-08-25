@@ -21,3 +21,7 @@ li {
     font: 1vw;
 }
 
+.card-body{
+    overflow: auto;
+}
+
